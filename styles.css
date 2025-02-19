@@ -1,0 +1,362 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    padding: 0;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+header, .logo, img {
+    height: 45px;
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    overflow: visible;
+    border: none;
+    height: 1px;
+    background-color: #cfcfcf;
+}
+
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #cfcfcf;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 300px;
+}
+
+.nav-bar .label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.nav-bar input {
+    border: none;
+    outline: none;
+    width: 250px;
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+}
+
+.nav-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search-btn img {
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+
+
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));;
+    gap: 25px;
+    padding: 25px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.book1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px lightgrey solid;
+    border-radius: 5px;
+}
+
+.book1 > .cover > img {
+    height: 250px;
+    padding-top: 15px;
+}
+
+.book1 > .description > h3 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.book1 > .author > h4{
+    margin: 0;
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.book1 > .publisher > h5 {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.book2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px lightgrey solid;
+    border-radius: 5px;
+}
+
+.book2 > .cover > img {
+    height: 250px;
+    padding-top: 15px;
+}
+
+.book2 > .description > h3 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.book2 > .author > h4{
+    margin: 0;
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.book2 > .publisher > h5 {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.book3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px lightgrey solid;
+    border-radius: 5px;
+}
+
+.book3 > .cover > img {
+    height: 250px;
+    padding-top: 15px;
+}
+
+.book3 > .description > h3 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.book3 > .author > h4{
+    margin: 0;
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.book3 > .publisher > h5 {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.book4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px lightgrey solid;
+    border-radius: 5px;
+}
+
+.book4 > .cover > img {
+    height: 250px;
+    padding-top: 15px;
+}
+
+.book4 > .description > h3 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.book4 > .author > h4{
+    margin: 0;
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.book4 > .publisher > h5 {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.book5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px lightgrey solid;
+    border-radius: 5px;
+}
+
+.book5 > .cover > img {
+    height: 250px;
+    padding-top: 15px;
+}
+
+.book5 > .description > h3 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.book5 > .author > h4{
+    margin: 0;
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.book5 > .publisher > h5 {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.book6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px lightgrey solid;
+    border-radius: 5px;
+}
+
+.book6 > .cover > img {
+    height: 250px;
+    padding-top: 15px;
+}
+
+.book6 > .description > h3 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.book6 > .author > h4{
+    margin: 0;
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.book6 > .publisher > h5 {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    height: 400px;
+    width: auto;
+    padding: 25px;
+}
+
+.footer-left > img {
+    width: 45px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    width: 500px;
+    align-items: left;
+}
+
+.footer-left .social {
+    height: 30px;
+    padding-top: 20px;
+}
+
+
+.footer-center {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: left
+}
+
+.footer-center h2 {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 25px;
+    margin: 0;
+    font-weight: 550;
+    font-size: 22px;
+}
+
+.links {
+    padding: 20px 0px 0px 25px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.links a {
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
